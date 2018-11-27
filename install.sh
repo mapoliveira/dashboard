@@ -11,7 +11,7 @@ sudo yum -y install git
 # install the Python program
 git clone https://github.com/krother/dashboard.git
 cd dashboard
-pip3 install -r requirements.txt
+sudo pip3 install -r requirements.txt
 
 # download CSV file
 # curl http://somewhere.com/my.csv
